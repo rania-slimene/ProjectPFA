@@ -29,8 +29,8 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            TRVL
-            <i class='fab fa-typo3' />
+            OTLOBNI
+            <i class='fab fa-whatsapp' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -52,25 +52,35 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/Prestataire'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                Prestataire
               </Link>
             </li>
 
+            <li className='nav-item'>
+              <Link
+                to='/promo'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Promos
+              </Link>
+            </li>
             <li>
               <Link
-                to='/sign-up'
+                to='/sign-in'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Sign In
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button &&  <Link
+                to='/sign-in'><Button buttonStyle='btn--outline'>SIGN IN</Button> </Link>}
         </div>
       </nav>
     </>

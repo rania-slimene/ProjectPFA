@@ -1,0 +1,30 @@
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .categories__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 40px;
+  }
+  
+  .categories__card {
+    width: 400px;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .categories__card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    
+  }
+  
+  .categories__card-image {
+    width: 100%;
+    height: auto;
+  }

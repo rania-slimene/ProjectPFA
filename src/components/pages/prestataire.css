@@ -1,0 +1,39 @@
+
+  .cardess {
+
+    display:inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20em;
+    height: 15em;
+    background-color: rgb(204, 204, 217);
+    border-radius: 2em;
+    padding: 1em 2em;
+    margin: 0 2em 1rem;
+    color: rgb(4, 4, 165);
+    font-size: medium;
+    text-align: center;
+  
+  }
+
+  .carrds{
+    background-color: rgb(232, 231, 228);
+    box-shadow: 1px 1px 1px rgb(218, 230, 230);
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+     
+  }  
+  .cardess h5, .cardess p {
+    margin: 0;
+  }
+  
+  .cardess .name {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cardess .name h5 {
+    margin-right: 0.5em;
+  }

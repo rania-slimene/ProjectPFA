@@ -7,12 +7,14 @@ function Footer() {
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
-        </p>
-        <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
-        </p>
+        <div className='footer-subscription-heading'>
+        Rejoignez notre site pour recevoir nos meilleures offres de services
+
+
+        </div>
+        <div className='footer-subscription-text'>
+        Vous pouvez vous désabonner à tout moment.
+        </div >
         <div className='input-areas'>
           <form>
             <input
@@ -21,42 +23,38 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>S'abonner</Button>
           </form>
         </div>
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
-          </div>
+            <h2>À propos </h2>
+            <a href='/propos/qui_nous_somme'>Qui somme_nous?</a>
+            < a href='/propos/qui_nous_somme'>Notre mission </a>
+          </div>                                            
           <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <h2>Contact </h2>
+            <Link to='/'>Numero telephone:  +216 95289756</Link>
+            <Link to='/'>Numero fixe:   <br></br>+216 73515520 </Link>
+            <Link to='/'>Adresse_email: otlobni@gmail.com</Link>
+            <Link to='/'>Locale :Rue 18 Janvier Monastir </Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <h2>Pour Les Prestataires</h2>
+            <a href='/abonemments'>Nos abonnements</a>
+            <a href='/chart'>Charte comportementale</a>
           </div>
           <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <h2>Resaux sociaux</h2>
+            <a href='https://www.instagram.com/otlobni_/'>Instagram</a>
+            <a href='https://www.facebook.com/otlo.bni.9'>Facebook</a>
+            <a href='https://www.linkedin.com/in/rania-slimene-35a6a7213/'>LinkedIn</a>
+            <a href='https://www.facebook.com/ranoucha.rania.140'>Twitter</a>
+            
           </div>
         </div>
       </div>
@@ -64,52 +62,43 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
-              <i class='fab fa-typo3' />
+              OTLOBNI
+              <i class='fab fa-whatsapp' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>OTLOBNI © 2023</small>
           <div class='social-icons'>
-            <Link
+            <a href='https://www.facebook.com/otlo.bni.9'
               class='social-icon-link facebook'
-              to='/'
-              target='_blank'
+              
+              
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
+            </a>
+            <a href='https://www.instagram.com/otlobni_/'
               class='social-icon-link instagram'
-              to='/'
-              target='_blank'
+              
+              
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
-            </Link>
-            <Link
+            </a>
+            <a href='https://www.linkedin.com/in/rania-slimene-35a6a7213/'
               class='social-icon-link youtube'
-              to='/'
-              target='_blank'
+              
+              
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
+              <i class='fab fa-linkedin' />
+            </a>
+            <a href='https://www.linkedin.com/in/rania-slimene-35a6a7213/'
               class='social-icon-link twitter'
-              to='/'
-              target='_blank'
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
+            </a>
+           
           </div>
         </div>
       </section>
