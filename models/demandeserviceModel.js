@@ -9,7 +9,7 @@ const DemandeService = mongoose.Schema({
     },
     description:{
         type : String,
-        required:true,
+        required:true,    
         maxLength:30,
         minLength:2  
     },
