@@ -50,4 +50,4 @@ photo: {
     type: String // Chemin du fichier de l'image ou une URL
 }
 })
-module.exports=mongoose.model("Utilisateur",Utilisateur);
+module.exports=mongoose.model("Utilisateur",Utilisateur); 

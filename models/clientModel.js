@@ -10,7 +10,7 @@ codePostal:{
     required : true,
     maxLength:4,
     minLength:4
-
+ 
 }
 })
 class Client extends Utilisateur{

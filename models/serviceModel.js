@@ -9,7 +9,7 @@ const Service = mongoose.Schema({
     },
     description:{
         type:String
-    },
+    }, 
     prix:{
         type:Number
     }

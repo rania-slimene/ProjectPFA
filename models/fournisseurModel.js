@@ -10,7 +10,7 @@ specialite:{
 
 },
    
-
+ 
 })
 class Fournisseur extends Utilisateur{
     constructor(nom, prenom, nTel, email, login, motDePasse,localisation,photo, specialite){

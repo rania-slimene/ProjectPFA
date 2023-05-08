@@ -8,7 +8,7 @@ const Categorie = mongoose.Schema({
         minLength:2 
     },
     image:{
-        type:String
+        type:String 
     },
     services: [
         {

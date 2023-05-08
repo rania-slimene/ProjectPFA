@@ -6,7 +6,7 @@ const Message=mongoose.Schema({
         minLength:2
     },
     dateEnvoi:{
-        type:Date
+        type:Date 
         
     },
     sender:{  

@@ -11,7 +11,7 @@ const DemandeService = mongoose.Schema({
         type : String,
         required:true,
         maxLength:30,
-        minLength:2 
+        minLength:2  
     },
     prixMax:{
         type :Number,

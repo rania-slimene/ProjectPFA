@@ -56,7 +56,7 @@ app.use("/fournisseur",fournisseurRoute)
 app.use("/admin",adminRoute)
 app.use("/login",loginRoute)
 app.use("/payment",stripeRoute)
-
+ 
 
 app.listen (5000,(console.log("the server is runing the port 5000")))
 mongoose.connect("mongodb+srv://raniaslimene:raniaslimene@cluster0.txrombs.mongodb.net/?retryWrites=true&w=majority",console.log("connected to database"))
