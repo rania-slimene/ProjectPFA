@@ -11,7 +11,7 @@ codePostal:{
     maxLength:4,
     minLength:4
  
-}
+} 
 })
 class Client extends Utilisateur{
     constructor(nom, prenom, nTel, email, login, motDePasse,localisation,photo, ville, codePostal){

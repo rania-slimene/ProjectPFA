@@ -1,9 +1,9 @@
 const mongoose = require("mongoose")
 
 const DemandeService = mongoose.Schema({
-    titre:{
+    titre:{ 
         type : String,
-        required:true,
+        required:true, 
         maxLength:30, 
         minLength:2 
     },

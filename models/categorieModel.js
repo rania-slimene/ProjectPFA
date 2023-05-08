@@ -11,7 +11,7 @@ const Categorie = mongoose.Schema({
         type:String 
     },
     services: [
-        {
+        { 
           nomService: {
             type: String,
             required: true
